@@ -64,7 +64,6 @@ body {
     cursor: pointer;
     outline: none;
   }
-  
   .nav-close-icon {
     width: 20px;
     height: 20px;
@@ -78,17 +77,15 @@ body {
   .dropdown-content a:hover {
     background-color: #ddd;
   }
-  
   .sign-in-form {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
+    background-color: rgba(200, 200, 200, 0.8);
     padding: 20px;
     border-radius: 5px;
   }
-  
   .sign-in-form input {
     display: block;
     width: 90%;
